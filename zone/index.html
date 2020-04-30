@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>CodePen - 伏拉夫生成器</title>
+<style>
+textarea {
+    resize: none;
+    overflow: hidden;
+    width: 100%;
+    min-height: 50px;
+}
+lable {
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+}
+button {
+    margin-bottom: 10px;
+}
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<body onload="onload()">
+<div class="container">
+<h1>伏拉夫生成器</h1>
+<div class="row">
+<div class="col-sm-5 col-xs-12">
+<form action="javascript:void(0);" autocomplete="off">
+<div class="form-group">
+<lable for="subject">谁菜：</lable>
+<input type="text" id="subject" class="form-control" placeholder="俄罗斯的火锅" required />
+</div>
+<div class="form-group">
+<lable for="event">谁强：</lable>
+<input type="text" id="event" class="form-control" placeholder="中国的火锅" required />
+<input type="submit" value="生成" class="btn btn-primary" onclick="generate()" />
+</form>
+</div>
+<div class="col-sm-7 col-xs-12">
+<textarea id="result" onchange="auto_grow(this)" oninput="auto_grow(this)" placeholder="　　俄罗斯的火锅，不行，中国的火锅，行，我们中国真是太厉害啦！"></textarea>
+</div>
+</div>
+</div>
+<hr />
+<div id="footer">
+<br />
+</div>
+</body>
+<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+<script id="rendered-js">
+
+
+function onload() {
+  auto_grow(document.getElementById("result"));
+}
+
+function generate() {
+  subject = document.getElementById("subject").value;
+  event = document.getElementById("event").value;
+  if (subject.length == 0 || event.length == 0)
+  return;
+  result = `　　${subject}，不行！${event}，行！我们中国真是太厉害啦！`;
+  document.getElementById("result").value = result;
+  auto_grow(document.getElementById("result"));
+}
+//# sourceURL=pen.js
+    </script>
+</body>
+</html>
