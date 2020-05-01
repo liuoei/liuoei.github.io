@@ -1,347 +1,101 @@
-<!DOCTYPE html>
-
-
-
-  
-
-
-<script src="/live2d-widget/autoload.js"></script>
-
-<html class="theme-next pisces use-motion" lang="zh-Hans">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<link href="https://cdn.bootcss.com/KaTeX/0.7.1/katex.min.css" rel="stylesheet">
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-
-
-
-
-
-<meta name="description" content="《笑傲江湖》是金庸先生于1969年完成的一部作品。窃以为其艺术成就在金庸14部小说中位居次席，仅次于《鹿鼎记》。盖因此书早已脱离一般武侠小说的范畴，乃是一部政治小说。本文试图从此书之中窥见社会的诸般姿态。 《笑傲江湖》中有本挑起种种事端的书：《葵花宝典》。此书极其邪恶，毕竟“欲练神功，引刀自宫”。这里的自宫其实是一个隐喻，即抛弃尊严、修炼武功；或许我们也可以将之理解为自残肢体，象征了残害亲人。《葵">
-<meta property="og:type" content="article">
-<meta property="og:title" content="从《笑傲江湖》看社会百态">
-<meta property="og:url" content="http://yoursite.com/2020/04/30/1-2/index.html">
-<meta property="og:site_name" content="Liu&#39;s Site">
-<meta property="og:description" content="《笑傲江湖》是金庸先生于1969年完成的一部作品。窃以为其艺术成就在金庸14部小说中位居次席，仅次于《鹿鼎记》。盖因此书早已脱离一般武侠小说的范畴，乃是一部政治小说。本文试图从此书之中窥见社会的诸般姿态。 《笑傲江湖》中有本挑起种种事端的书：《葵花宝典》。此书极其邪恶，毕竟“欲练神功，引刀自宫”。这里的自宫其实是一个隐喻，即抛弃尊严、修炼武功；或许我们也可以将之理解为自残肢体，象征了残害亲人。《葵">
-<meta property="og:image" content="http://yoursite.com/2020/04/30/1-2/1.png">
-<meta property="og:image" content="http://yoursite.com/2020/04/30/1-2/2.png">
-<meta property="article:published_time" content="2020-04-30T02:14:42.000Z">
-<meta property="article:modified_time" content="2020-04-30T02:20:08.748Z">
-<meta property="article:author" content="Siqi Liu">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://yoursite.com/2020/04/30/1-2/1.png">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Pisces',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="http://yoursite.com/2020/04/30/1-2/"/>
-
-
-
-
-
-  <title>从《笑傲江湖》看社会百态 | Liu's Site</title>
-  
-
-
-
-
-
-
-
-
-<meta name="generator" content="Hexo 4.2.0"></head>
-
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
-  
-  
-    
-  
-
-  <div class="container sidebar-position-left page-post-detail">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
-
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Liu's Site</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-      
-        <p class="site-subtitle"></p>
-      
-  </div>
-
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
-</div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
-</nav>
-
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-
-  <div id="posts" class="posts-expand">
-    
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/30/1-2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Siqi Liu">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/up.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Liu's Site">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">从《笑傲江湖》看社会百态</h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-30T10:14:42+08:00">
-                2020-04-30
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E4%B9%A6%E8%AF%84-%E6%9D%82%E6%84%9F/" itemprop="url" rel="index">
-                    <span itemprop="name">书评/杂感</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-  <span class="post-meta-divider">|</span>
-  <span id="busuanzi_value_page_pv"></span>次阅读
-
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <p>《笑傲江湖》是金庸先生于1969年完成的一部作品。窃以为其艺术成就在金庸14部小说中位居次席，仅次于《鹿鼎记》。盖因此书早已脱离一般武侠小说的范畴，乃是一部政治小说。本文试图从此书之中窥见社会的诸般姿态。</p>
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>人到底是前置摄像头里的样子，还是后置摄像头里的样子？</title>
+    <url>/2020/04/28/passage1-1/</url>
+    <content><![CDATA[<p>惯例，先上答案：<strong>如果单单就这个问题来考虑的话，人最真实的长相应该是镜子里的样子</strong>。但严格来说，在实际生活中，你“<strong>最真实</strong>”的样子永远不会被看到，因为在实际生活中不会有能成完美像的光学系统存在。</p>
+<p>从物理角度来说，<strong>平面镜是唯一能成完善像的光学系统</strong> ，因为其中只有一个反射镜的存在。而我们知道，手机镜头是由多片透镜组成的，而光线一旦经过透镜，就不会再成完善像。</p>
+<a id="more"></a>
+<h2 id="透镜成像的原理"><a class="markdownIt-Anchor" href="#透镜成像的原理"></a> 透镜成像的原理</h2>
+<p>我们考虑一个单折射面的成像。众所周知，光线在经过透镜面之后会发生折射，如图所示：</p>
+<p><img src="/2020/04/28/passage1-1/1.png" alt="1"></p>
+<p>先作一些说明：</p>
+<ol>
+<li>字母 $ V $ 表示 透镜面的顶点，矢高 (<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>S</mi><mi>a</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">Sag</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span></span></span></span>) 表示曲面表面上任意一点与顶点 $ V $ 相切的平面之间的距离。显然，$ Sag $ 的值会随径向高度  $ y $  的变化而变化；</li>
+<li>记表面左侧空间的折射率为 $ n $，右边空间的折射率为 $ n’ $；</li>
+<li>我们研究的是“近轴光线”，也就是与光轴夹角较小的光线；</li>
+<li>近轴光线从 $ O $ 发出，到达光轴上 $ O’ $ 点，$ C $ 点为曲面的曲率中心，$ R $ 表示半径，$ C $ 为曲率；</li>
+<li>所有逆时针方向的角度、自上而下、自左而右的方向记为正，反之为负。</li>
+</ol>
+<p>我们考察这条光线。</p>
+<p>根据几何关系，容易得到：</p>
+<p>$ A=U-I=U’-I’ $</p>
+<p>也即</p>
+<p>$ I’=U’-A’,I=U-A  $</p>
+<p>根据折射定律(斯涅耳定律)</p>
+<p>$ n\sin I=n’\sin I’$</p>
+<p>我们有：</p>
+<p>$ n\sin(U-A)=n’\sin(U’-A’) $</p>
+<p>通过三角恒等变换可以得到：</p>
+<p>$ n(\sin U\cos A-\cos U \sin A)=n’(\sin U’ \cos A-\cos U’ \sin A) $</p>
+<p>也即</p>
+<p>$ n(\sin U-\cos U \tan A)=n’(\sin U’ -\cos U’ \tan A) $</p>
+<p>近轴光线近似，我们有：</p>
+<p>$ \cos U \approx \cos U’ $</p>
+<p>上式两边分别除以 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>cos</mi><mo>⁡</mo><mi>U</mi></mrow><annotation encoding="application/x-tex">\cos U</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mop">cos</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">U</span></span></span></span> 与 $\cos U’ $ ，有：</p>
+<p>$ n(\tan U-\tan A)=n’(\tan U’-\tan A) $</p>
+<p>定义近轴光线角为实际角度的正切值，有：</p>
+<p>$ u\equiv \tan U, u’ \equiv \tan U’, \alpha \equiv \tan A $</p>
+<p>可以得到：</p>
+<p>$ n(u-\alpha)=n’(u’-\alpha) $</p>
+<p>结合图片，我们又有：</p>
+<p>$ \alpha=\tan A=-\displaystyle\frac{y}{R-Sag} $</p>
+<p>近轴近似条件又有：</p>
+<p>$ \left| Sag \right|\ll\left| R \right| $</p>
+<p>于是，我们有：</p>
+<p>$ \alpha=-\displaystyle\frac{y}{R} $</p>
+<p>定义光学表面的光焦度 $ \phi=(n’-n)/R $  ，化简可得：</p>
+<p>$ n’u’=nu-y\phi $</p>
+<p>如果我们将V点至O’点的距离记作 $ z’ $ （自左向右为正），V点到O点的距离记作 $ z $ （自右向左为负），且考虑与上面相同的近轴近似，我们容易得到：</p>
+<p>$  \displaystyle\frac{n’}{z’}=\displaystyle\frac{n}{z}+\phi $</p>
+<p>这就是单折射面近轴成像的方程。</p>
+<p>需要说明的是，光焦度 $ \phi=\displaystyle\frac{1}{f} $ ，若我们取 $ n’=n=1 $  ，就得到了熟悉的中学学过的透镜成像方程，只不过在这里我们考虑了方向的正反。若取 $ l’=z’,l=-z $, 就得到 $ \displaystyle\frac{1}{l’}+\frac{1}{l}=\frac{1}{f} $ .</p>
+<p>由于上面用了很多 <strong>“近轴近似”</strong> 的条件，因此不可避免地会在实际成像时产生与理论的差距。</p>
+<h2 id="像差理论"><a class="markdownIt-Anchor" href="#像差理论"></a> 像差理论</h2>
+<p>实际光学系统成像不可能是理想的，因而从一个物点发出的所有光线不可能在同一个像点完美相遇，这种现象则称为像差。像差有很多种，例如球差、彗差、像散、场曲、畸变等。</p>
+<p>以下简单谈谈这几种像差。</p>
+<ol>
+<li>球差</li>
+</ol>
+<p>球差(球面像差)的名称来源是它可以通过大多数折射球面或反射球面观察到。当光学系统中出现球面时，来自不同高度的光线由于不同高度的折射能力不尽相同，它们会汇聚在光轴的不同位置，从而导致轴向的模糊，产生球差，如图所示：</p>
+<p><img src="https://pic1.zhimg.com/50/v2-2ad1f2dcc2837de6b71120a9b541d836_b.jpg" alt="img"></p>
+<p>球面像差</p>
+<p>当然，光线也可能会汇聚到光轴以外的点上，我们成为垂轴像差，因而球差同时具有轴向与垂轴的像差。如果用一点发出的若干光线在像面上的分布(点列图)来表征球差，则是这样的：</p>
+<p><img src="https://pic3.zhimg.com/50/v2-7de9de21900ccada0709e5c128534b65_b.jpg" alt="img"></p>
+<ol start="2">
+<li>彗差</li>
+</ol>
+<p>之所以称为彗差，是因为它的点列图很像彗星的尾迹，如图所示：</p>
+<p><img src="https://pic3.zhimg.com/50/v2-5398cbc4515e358d8eb7d5c8a5fcaf39_b.jpg" alt="img"></p>
+<p>彗差的产生是因为入射到光瞳中心的主光线（经过光瞳中心的光线）与入射到光瞳边缘的光线的成像高度不同，因而产生像差，如图所示。</p>
+<p><img src="https://pic4.zhimg.com/50/v2-08137d5f3a8387ff9392bed6d63ae27b_b.jpg" alt="img"></p>
+<ol start="3">
+<li>像散</li>
+</ol>
+<p>轴外的物点不在光学系统的光轴上，它发出的光线与光轴有一定的角度。在经过光学系统后，由于系统水平和垂直方向的光焦度不同，因而垂直和平行于光轴的光线不能汇聚在同一个点上，产生像散。</p>
+<p><img src="https://pic4.zhimg.com/50/v2-c449be0770c66e8f1d5943098ce2aef7_b.jpg" alt="img"></p>
+<ol start="4">
+<li>场曲与畸变</li>
+</ol>
+<p>场曲是指光学系统成曲面像的现象，这也是实际光学系统不可避免的一个误差。</p>
+<p><img src="https://pic1.zhimg.com/50/v2-d9bfbea40bb7f077d5f1784b3e1cb94f_b.jpg" alt="img"></p>
+<p>畸变的产生主要是由于轴外物点发出的主光线与像面交点的高度和理想高度之差。</p>
+<p><img src="https://pic4.zhimg.com/50/v2-d7a27405cecdf2fb84e9bdf5259d95ff_b.jpg" alt="img"></p>
+<p>光学系统中的像差往往是以上多种像差的组合。</p>
+<p>除了以上几种几何像差以外，还有因对不同色光的折射率带来的色差等等。</p>
+<p><strong>由于这么多像差的存在，因而含有多片透镜的手机镜头是不可能成完善像的，所以肯定比不上镜子里来得“真实”。</strong></p>
+<p>因为在进行几何光学的研究时，我们不得不取一些近似来便利计算和分析，在实际系统中这些近似都不会被忽略；而不论我们后期进行怎样的处理，这些误差都不可能被完全消除；因为损失了的信息是不能通过后期补回来的。另外，再加上现在手机相机AI的加持，拍出来的照片就更不“真实”了。</p>
+<p>但是，拍照片你是为了真实吗？（bushi</p>
+<p><strong>总结：就本问题来说，镜子里的你是最真实的；而由于大部分手机的后置镜头的素质更好，拍出来的照片也应当比前置镜头更真实。</strong></p>
+]]></content>
+      <categories>
+        <category>物理/科普</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>从《笑傲江湖》看社会百态</title>
+    <url>/2020/04/30/1-2/</url>
+    <content><![CDATA[<p>《笑傲江湖》是金庸先生于1969年完成的一部作品。窃以为其艺术成就在金庸14部小说中位居次席，仅次于《鹿鼎记》。盖因此书早已脱离一般武侠小说的范畴，乃是一部政治小说。本文试图从此书之中窥见社会的诸般姿态。</p>
 <p>《笑傲江湖》中有本挑起种种事端的书：《葵花宝典》。此书极其邪恶，毕竟“欲练神功，引刀自宫”。这里的自宫其实是一个隐喻，即抛弃尊严、修炼武功；或许我们也可以将之理解为自残肢体，象征了残害亲人。《葵花宝典》象征的是至高权力。习得书中武功，便可以“日出东方，唯我不败。”社会中享有权位之人几乎无不心狠手辣、善于隐忍，尊严一事在所不惜。</p>
 <p>下面就从书中的人物、门派以至情节谈开去。</p>
 <a id="more"></a>
@@ -393,445 +147,9 @@
 <p> 有了公式，计算每一时刻玉音子剑的位置和速度自然不在话下。而 “加加速度” 可以通过$ a=jt $ 算出。</p>
 <p>在我们的计算下，“岱宗如何”这一招的原理已经毫无奥秘可言。但是，在它背后还有一些神奇的事情。</p>
 <p>首先是公式里的重力加速度。重力加速度的概念，应该是在牛顿发现万有引力定律之后才成熟起来的。万有引力定律由牛顿在1687年提出，因此，这一招必须创制在1687年之后才有科学依据。另外，上面的运动学公式必须由微积分学才能导出，而微积分是由牛顿与莱布尼茨在17世纪分别独立创立的。所以，这一招的发明时间应该在17世纪后半期。根据牛顿晚年喜好炼丹，喜爱长生不老的经历，我们发现他是极其有可能独自偷偷去泰山旅游来寻找长寿秘诀的。因此我们有理由大胆地进行设想：泰山派绝招“岱宗如何”的发明者，原来就是牛顿！同时，《笑傲江湖》一直悬而未决的年代之谜，也得到了解决：那一定是在清朝中期抑或是民国时期了（建国后是不可能滴）。</p>
-
-      
-    </div>
-    
-    
-    
-
-    
-      <div>
-        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
-    <img id="wechat_subscriber_qcode" src="/uploads/qrcode.jpg" alt="Siqi Liu wechat" style="width: 200px; max-width: 100%;"/>
-    <div>欢迎您扫一扫上面的二维码，关注我的微信公众号</div>
-</div>
-
-      </div>
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2020/04/28/passage1-1/" rel="next" title="人到底是前置摄像头里的样子，还是后置摄像头里的样子？">
-                <i class="fa fa-chevron-left"></i> 人到底是前置摄像头里的样子，还是后置摄像头里的样子？
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-
-    <div class="post-spread">
-      
-    </div>
-  </div>
-
-
-          </div>
-          
-
-
-          
-
-  
-
-
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    
-    <div class="sidebar-inner">
-
-      
-
-      
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
-
-      <section class="site-overview-wrap sidebar-panel">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <img class="site-author-image" itemprop="image"
-                src="/uploads/up.jpg"
-                alt="Siqi Liu" />
-            
-              <p class="site-author-name" itemprop="name">Siqi Liu</p>
-              <p class="site-description motion-element" itemprop="description"></p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives">
-              
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-categories">
-                <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">分类</span>
-                </a>
-              </div>
-            
-
-            
-
-          </nav>
-
-          
-
-          
-            <div class="links-of-author motion-element">
-                
-                  <span class="links-of-author-item">
-                    <a href="mailto:cnrglsq@hust.edu.cn" target="_blank" title="E-Mail">
-                      
-                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
-                  </span>
-                
-            </div>
-          
-
-          
-          
-
-          
-          
-
-          
-
-        </div>
-      </section>
-
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、林平之"><span class="nav-number">1.</span> <span class="nav-text">一、林平之</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、岳不群"><span class="nav-number">2.</span> <span class="nav-text">二、岳不群</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、任我行"><span class="nav-number">3.</span> <span class="nav-text">三、任我行</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、“金盆洗手”事件"><span class="nav-number">4.</span> <span class="nav-text">四、“金盆洗手”事件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#五、风清扬"><span class="nav-number">5.</span> <span class="nav-text">五、风清扬</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#六、令狐冲"><span class="nav-number">6.</span> <span class="nav-text">六、令狐冲</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于“岱宗如何”的学术性探讨"><span class="nav-number">7.</span> <span class="nav-text">关于“岱宗如何”的学术性探讨</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
-      
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Siqi Liu</span>
-
-  
-</div>
-<div>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<span id="busuanzi_container_site_pv" style='display:none'>
-    本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
-    <span class="post-meta-divider">|</span>
-</span>
-<span id="busuanzi_container_site_uv" style='display:none'>
-    有<span id="busuanzi_value_site_uv"></span>人看过我的博客
-</span>
-</div>
-
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
-
-
-
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
-
-
-
-
-        
-
-
-
-
-
-
-
-        
-      </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-  
-
-
-  
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/three.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
-
-
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
-      });
-    </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-      });
-    </script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-  
-
-
-  
-
-  
-
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
-</html>
+]]></content>
+      <categories>
+        <category>书评/杂感</category>
+      </categories>
+  </entry>
+</search>
