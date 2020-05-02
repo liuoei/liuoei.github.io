@@ -6,7 +6,7 @@ const ap = new APlayer({
       {
         name: "东风破",
         artist: '周杰伦',
-        url: 'http://mp.111ttt.cn/mp3music/79479.mp3',
+        url: 'https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9odXN0ZWR1Y24tbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvY25yZ2xzcV9odXN0X2VkdV9jbi9FZWJrM3dfTmNqbExvclFTV2Q0UU1XRUJUSHFSTGVXci1LcVBwVEsxMUhYUnVRP2U9MjBLTUZI.mp3',
         cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1588348816715&di=48336330e0a895956c68ba501d551757&imgtype=0&src=http%3A%2F%2Fn1.itc.cn%2Fimg8%2Fwb%2Frecom%2F2016%2F06%2F22%2F146659044263625234.JPEG',
       },
       {
@@ -68,12 +68,6 @@ const ap = new APlayer({
         artist: '周杰伦&费玉清' ,
         url: 'http://mp.111ttt.cn/mp3music/138810.mp3',
         cover: 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3515339255,299950061&fm=26&gp=0.jpg',
-      },
-      {
-        name: '搁浅',
-        artist: '周杰伦' ,
-        url: 'https://sh-download-ipv6.ftn.qq.com/ftn_handler/2252e2958a5613cb614a443c7e70137bb438da54c448a1bc70dac26f05efa70eba0727a1d922090108e1273cf0c37853f50ad61b906e1d11baaf4cf7863c2faa/?fname=%E5%91%A8%E6%9D%B0%E4%BC%A6%20-%20%E6%90%81%E6%B5%85.mp3',
-        cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1588351818551&di=4d6727570412e7df89e850611209add7&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2F2e5abc33760dbcf098e451f3c1c0f5a13812c6d6.jpg',
       },
       {
         name: '枫',
