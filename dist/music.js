@@ -72,7 +72,7 @@ const ap = new APlayer({
       {
         name: '搁浅',
         artist: '周杰伦' ,
-        url: 'http://mp.111ttt.cn/mp3music/94239.mp3',
+        url: 'https://sh-download-ipv6.ftn.qq.com/ftn_handler/2252e2958a5613cb614a443c7e70137bb438da54c448a1bc70dac26f05efa70eba0727a1d922090108e1273cf0c37853f50ad61b906e1d11baaf4cf7863c2faa/?fname=%E5%91%A8%E6%9D%B0%E4%BC%A6%20-%20%E6%90%81%E6%B5%85.mp3&k=7e646566b06808c7b51d095a473557175b0751055100550a15065056001851590a014804525451150a005d5e0450565d5b55075e612465eee4d9b9a4b6154818808da2d54f58150b3859&code=8defa5e8&fr=00&&txf_fid=602f6d0ecbb691f06f6baf05b26789d659c69a19&xffz=9609775.mp3',
         cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1588351818551&di=4d6727570412e7df89e850611209add7&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2F2e5abc33760dbcf098e451f3c1c0f5a13812c6d6.jpg',
       },
       {
