@@ -66,7 +66,7 @@ const ap = new APlayer({
       {
         name: '千里之外',
         artist: '周杰伦&费玉清' ,
-        url: 'http://mp.111ttt.cn/mp3music/138810.mp3',
+        url: 'http://mp.111ttt.cn/mp3music/138810.mp3',hex
         cover: 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3515339255,299950061&fm=26&gp=0.jpg',
       },
       {
