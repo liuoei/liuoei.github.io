@@ -153,33 +153,40 @@
   <entry>
     <title>三星S20要怎样才能拍到月球上的脚印？</title>
     <url>/2020/05/02/%E8%A6%81%E6%80%8E%E6%A0%B7%E6%89%8D%E8%83%BD%E6%8B%8D%E5%88%B0%E6%9C%88%E7%90%83%E4%B8%8A%E7%9A%84%E8%84%9A%E5%8D%B0%EF%BC%9F/</url>
-    <content><![CDATA[<h2 id="说在前面"><a href="#说在前面" class="headerlink" title="说在前面"></a>说在前面</h2><p>写这篇文章的动机在于这张图：</p>
+    <content><![CDATA[<h2 id="说在前面"><a class="markdownIt-Anchor" href="#说在前面"></a> 说在前面</h2>
+<p>写这篇文章的动机在于这张图：</p>
 <p><img src="/2020/05/02/%E8%A6%81%E6%80%8E%E6%A0%B7%E6%89%8D%E8%83%BD%E6%8B%8D%E5%88%B0%E6%9C%88%E7%90%83%E4%B8%8A%E7%9A%84%E8%84%9A%E5%8D%B0%EF%BC%9F/1.png" alt="1"></p>
 <p>大家都知道三星S20 Ultra用上了一亿像素的一颗大底镜头，于是便有人做出了这样一张图来对比三款手机。当然，这颗一亿像素的镜头肯定是不可能拍到阿姆斯特朗的这个脚印的（不然花费高额代价制造的望远镜还有什么用处）；我想做的是，来看看如果要拍出这样的一张图片，或者说，获得月球表面一颗脚印的像，我们的成像系统“最少”需要满足的条件是什么。</p>
 <a id="more"></a>
 <p>先来了解一下有关这个问题的一些基础知识：</p>
-<h2 id="1-光的衍射"><a href="#1-光的衍射" class="headerlink" title="1    光的衍射"></a>1    光的衍射</h2><h3 id="1-1-基本理论"><a href="#1-1-基本理论" class="headerlink" title="1.1    基本理论"></a>1.1    基本理论</h3><p>光在遇到障碍物的时候，会偏离原来的传播方向进入障碍物的几何阴影区。简单来说，光会“绕过”障碍物进入后面的影子，于是会在后面形成一个看似不可能的“亮斑”。惠更斯提出的惠更斯原理可以对这种现象做出解释：惠更斯原理假定，波前上的每一个点都是一个新的波源，能够发出一系列的球面子波，这些新的球面波的包络面就是新的波前。</p>
+<h2 id="1-光的衍射"><a class="markdownIt-Anchor" href="#1-光的衍射"></a> 1    光的衍射</h2>
+<h3 id="11-基本理论"><a class="markdownIt-Anchor" href="#11-基本理论"></a> 1.1    基本理论</h3>
+<p>光在遇到障碍物的时候，会偏离原来的传播方向进入障碍物的几何阴影区。简单来说，光会“绕过”障碍物进入后面的影子，于是会在后面形成一个看似不可能的“亮斑”。惠更斯提出的惠更斯原理可以对这种现象做出解释：惠更斯原理假定，波前上的每一个点都是一个新的波源，能够发出一系列的球面子波，这些新的球面波的包络面就是新的波前。</p>
 <p><img src="/2020/05/02/%E8%A6%81%E6%80%8E%E6%A0%B7%E6%89%8D%E8%83%BD%E6%8B%8D%E5%88%B0%E6%9C%88%E7%90%83%E4%B8%8A%E7%9A%84%E8%84%9A%E5%8D%B0%EF%BC%9F/2.png" alt="1"></p>
 <p><img src="/2020/05/02/%E8%A6%81%E6%80%8E%E6%A0%B7%E6%89%8D%E8%83%BD%E6%8B%8D%E5%88%B0%E6%9C%88%E7%90%83%E4%B8%8A%E7%9A%84%E8%84%9A%E5%8D%B0%EF%BC%9F/3.png" alt="1"></p>
 <p>正是因为这样，在宏观上才会表现为“光绕过了障碍物”。但惠更斯原理只是对这样一种现象做出了“感性”的解释，它无法定量给出光波在这之后的振幅分布情况。因而，更进一步的解释需要引进菲涅尔对这一原理的补充。</p>
-<h4 id="1-1-1-惠更斯其人"><a href="#1-1-1-惠更斯其人" class="headerlink" title="1.1.1    惠更斯其人"></a>1.1.1    惠更斯其人</h4><p>这里我想关于惠更斯其人多聊几句。惠更斯是荷兰人，其父亲是一名外交家，家境富裕 (家境富裕似乎是那个时代大科学家诞生的必要条件？)。惠更斯一生成就颇丰，在数学、力学、光学、天文学方面都有所建树。他最为人熟知的成就应该是提出了单摆的周期公式，即</p>
-<p>$ T= 2\pi \sqrt{l/g}$</p>
-<p>在1657年，惠更斯发表了《论赌博中的计算》，被认为是概率论诞生的标志。在光学方面，惠更斯创立了光的波动说，当然还有提出了上文提到的惠更斯原理。在天文学方面，惠更斯也拥有一些不错的成就：他研究了透镜的相关<a href="https://zh.wikipedia.org/wiki/物理" target="_blank" rel="noopener">物理</a>原理，并发明了<a href="https://zh.wikipedia.org/wiki/惠更斯目镜" target="_blank" rel="noopener">惠更斯目镜</a>；他用自制的折射望远镜，首次发现了<a href="https://zh.wikipedia.org/wiki/土星" target="_blank" rel="noopener">土星</a>的<a href="https://zh.wikipedia.org/wiki/衛星" target="_blank" rel="noopener">卫星</a>——<a href="https://zh.wikipedia.org/wiki/土卫六" target="_blank" rel="noopener">土卫六</a>；同年，惠更斯观察到了<a href="https://zh.wikipedia.org/wiki/猎户座大星云" target="_blank" rel="noopener">猎户座大星云</a>并将它画了下来；1659年利用自己磨制的望远镜，发现了土星的<a href="https://zh.wikipedia.org/wiki/土星環" target="_blank" rel="noopener">光环</a>等等。惠更斯还指导过莱布尼茨学习数学。</p>
-<h3 id="1-2-菲涅尔的补充以及基尔霍夫衍射理论"><a href="#1-2-菲涅尔的补充以及基尔霍夫衍射理论" class="headerlink" title="1.2    菲涅尔的补充以及基尔霍夫衍射理论"></a>1.2    菲涅尔的补充以及基尔霍夫衍射理论</h3><p>上面提到惠更斯原理需要菲涅尔的补充。菲涅尔观点中最重要的一环，就是他认为：所有子波来自同一波前，所以，后一时刻的波前应是所有子波相干叠加的结果。也就是说，所谓的衍射，只是各个子波的干涉引起的。这样菲涅尔就能够对这种现象做出定量的计算。于是，一般情况下会将这两个人的理论合称<strong>惠更斯-菲涅尔原理</strong>。</p>
+<h4 id="111-惠更斯其人"><a class="markdownIt-Anchor" href="#111-惠更斯其人"></a> 1.1.1    惠更斯其人</h4>
+<p>这里我想关于惠更斯其人多聊几句。惠更斯是荷兰人，其父亲是一名外交家，家境富裕 (家境富裕似乎是那个时代大科学家诞生的必要条件？)。惠更斯一生成就颇丰，在数学、力学、光学、天文学方面都有所建树。他最为人熟知的成就应该是提出了单摆的周期公式，即</p>
+<p>$ T= 2\pi \sqrt{l/g} $</p>
+<p>在1657年，惠更斯发表了《论赌博中的计算》，被认为是概率论诞生的标志。在光学方面，惠更斯创立了光的波动说，当然还有提出了上文提到的惠更斯原理。在天文学方面，惠更斯也拥有一些不错的成就：他研究了透镜的相关<a href="https://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86" target="_blank" rel="noopener">物理</a>原理，并发明了<a href="https://zh.wikipedia.org/wiki/%E6%83%A0%E6%9B%B4%E6%96%AF%E7%9B%AE%E9%95%9C" target="_blank" rel="noopener">惠更斯目镜</a>；他用自制的折射望远镜，首次发现了<a href="https://zh.wikipedia.org/wiki/%E5%9C%9F%E6%98%9F" target="_blank" rel="noopener">土星</a>的<a href="https://zh.wikipedia.org/wiki/%E8%A1%9B%E6%98%9F" target="_blank" rel="noopener">卫星</a>——<a href="https://zh.wikipedia.org/wiki/%E5%9C%9F%E5%8D%AB%E5%85%AD" target="_blank" rel="noopener">土卫六</a>；同年，惠更斯观察到了<a href="https://zh.wikipedia.org/wiki/%E7%8C%8E%E6%88%B7%E5%BA%A7%E5%A4%A7%E6%98%9F%E4%BA%91" target="_blank" rel="noopener">猎户座大星云</a>并将它画了下来；1659年利用自己磨制的望远镜，发现了土星的<a href="https://zh.wikipedia.org/wiki/%E5%9C%9F%E6%98%9F%E7%92%B0" target="_blank" rel="noopener">光环</a>等等。惠更斯还指导过莱布尼茨学习数学。</p>
+<h3 id="12-菲涅尔的补充以及基尔霍夫衍射理论"><a class="markdownIt-Anchor" href="#12-菲涅尔的补充以及基尔霍夫衍射理论"></a> 1.2    菲涅尔的补充以及基尔霍夫衍射理论</h3>
+<p>上面提到惠更斯原理需要菲涅尔的补充。菲涅尔观点中最重要的一环，就是他认为：所有子波来自同一波前，所以，后一时刻的波前应是所有子波相干叠加的结果。也就是说，所谓的衍射，只是各个子波的干涉引起的。这样菲涅尔就能够对这种现象做出定量的计算。于是，一般情况下会将这两个人的理论合称<strong>惠更斯-菲涅尔原理</strong>。</p>
 <p>然而，科学理论的建立还是没有这么简单的。惠更斯-菲涅尔原理仍然是不严格的，进一步的补充就需要引入基尔霍夫衍射的相关理论。在这里除了夫琅禾费近似后的衍射公式，就不列出过多的公式了。</p>
 <p>如图所示，以下这个公式给出了经过衍射屏之后像面上的光场分布。这样我们就拥有了对经过衍射后光的强度分布进行精确计算的能力。</p>
 <p><img src="/2020/05/02/%E8%A6%81%E6%80%8E%E6%A0%B7%E6%89%8D%E8%83%BD%E6%8B%8D%E5%88%B0%E6%9C%88%E7%90%83%E4%B8%8A%E7%9A%84%E8%84%9A%E5%8D%B0%EF%BC%9F/4.png" alt="1"></p>
-<p> $E(x,y)=\displaystyle\frac{\mathrm{exp}(ikz_1)}{i\lambda z_1}\mathrm{exp}\left[\displaystyle\frac{ik}{2z_1}(x^2+y^2)\right]\displaystyle\iint_{-\infty}^{+\infty}E(x_1,y_1)\mathrm{exp}\left[-i2\pi(\displaystyle\frac{xx_1}{\lambda z_1}+\displaystyle\frac{yy_1}{\lambda z_1})\right]\mathrm{d}x_1\mathrm{d}y_1$</p>
-<h3 id="1-3-泊松亮斑"><a href="#1-3-泊松亮斑" class="headerlink" title="1.3    泊松亮斑"></a>1.3    泊松亮斑</h3><p>关于光的衍射，还有一段有趣的故事。众所周知，光的波动说与光的微粒说一直是19世纪附近科学家们争论的焦点。上文提到的菲涅尔是波动说的坚定支持者，在提出子波干涉的相关理论后，他在1818年像法兰西科学院提交了自己的论文，在那时法兰西科学院正在举办一次关于光本性问题研究的论文竞赛。</p>
+<p>$ E(x,y)=\displaystyle\frac{\mathrm{exp}(ikz_1)}{i\lambda z_1}\mathrm{exp}\left[\displaystyle\frac{ik}{2z_1}(x<sup>2+y</sup>2)\right]\displaystyle\iint_{-\infty}^{+\infty}E(x_1,y_1)\mathrm{exp}\left[-i2\pi(\displaystyle\frac{xx_1}{\lambda z_1}+\displaystyle\frac{yy_1}{\lambda z_1})\right]\mathrm{d}x_1\mathrm{d}y_1 $</p>
+<h3 id="13-泊松亮斑"><a class="markdownIt-Anchor" href="#13-泊松亮斑"></a> 1.3    泊松亮斑</h3>
+<p>关于光的衍射，还有一段有趣的故事。众所周知，光的波动说与光的微粒说一直是19世纪附近科学家们争论的焦点。上文提到的菲涅尔是波动说的坚定支持者，在提出子波干涉的相关理论后，他在1818年像法兰西科学院提交了自己的论文，在那时法兰西科学院正在举办一次关于光本性问题研究的论文竞赛。</p>
 <p>竞赛的评委会中有波动说的支持者阿拉果和波动说的反对者泊松、拉普拉斯。菲涅尔的物理理论并没有能说服所有人，但很多人还是被菲涅尔的数学运算以及与实验理论的高度一致性所征服了。泊松一直想推翻菲涅尔的观点，于是它基于光的波动说对菲涅尔的理论进行分析。他分析计算之后发现，如果菲涅尔的理论是正确的，在用一个圆盘进行遮挡时，光屏的中央应该出现一个亮斑。泊松认为这无疑是荒谬的。</p>
 <p><img src="/2020/05/02/%E8%A6%81%E6%80%8E%E6%A0%B7%E6%89%8D%E8%83%BD%E6%8B%8D%E5%88%B0%E6%9C%88%E7%90%83%E4%B8%8A%E7%9A%84%E8%84%9A%E5%8D%B0%EF%BC%9F/5.jpg" alt="1"></p>
-<p> 但是在菲涅尔和阿拉果精心设计的一个实验中，这个亮斑确实出现了。这样一来，泊松的计算反而成为了这个学说的一个有力佐证。由竟然于这个亮斑的出现是泊松首先计算出来的，因此将之称为泊松亮斑。</p>
-<h3 id="1-4-圆孔衍射"><a href="#1-4-圆孔衍射" class="headerlink" title="1.4    圆孔衍射"></a>1.4    圆孔衍射</h3><p>由于光学系统中的光瞳(可以简单理解为进光的光窗)大都是圆形的，我们就对圆孔衍射进行部分的说明。经过理论运算(这里略)可以得出，圆孔衍射的光强分布可以表示成</p>
+<p>但是在菲涅尔和阿拉果精心设计的一个实验中，这个亮斑确实出现了。这样一来，泊松的计算反而成为了这个学说的一个有力佐证。由竟然于这个亮斑的出现是泊松首先计算出来的，因此将之称为泊松亮斑。</p>
+<h3 id="14-圆孔衍射"><a class="markdownIt-Anchor" href="#14-圆孔衍射"></a> 1.4    圆孔衍射</h3>
+<p>由于光学系统中的光瞳(可以简单理解为进光的光窗)大都是圆形的，我们就对圆孔衍射进行部分的说明。经过理论运算(这里略)可以得出，圆孔衍射的光强分布可以表示成</p>
 <p>$ I=I_0\left[\displaystyle\frac{2J_1(ka\theta)}{ka\theta}\right]^2 $</p>
-<p> 其中，$ J1(ka\theta) $  是一阶贝塞尔函数, $ a $是圆孔半径，$ k $  为波数,$ k = \displaystyle\frac{2\pi}{\lambda} $  。 如下图所示：</p>
+<p>其中，$ J1(ka\theta) $  是一阶贝塞尔函数, $ a <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">是</mi><mi mathvariant="normal">圆</mi><mi mathvariant="normal">孔</mi><mi mathvariant="normal">半</mi><mi mathvariant="normal">径</mi><mi mathvariant="normal">，</mi></mrow><annotation encoding="application/x-tex">是圆孔半径，</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback">是</span><span class="mord cjk_fallback">圆</span><span class="mord cjk_fallback">孔</span><span class="mord cjk_fallback">半</span><span class="mord cjk_fallback">径</span><span class="mord cjk_fallback">，</span></span></span></span> k $  为波数,$ k = \displaystyle\frac{2\pi}{\lambda} $  。 如下图所示：</p>
 <p><img src="/2020/05/02/%E8%A6%81%E6%80%8E%E6%A0%B7%E6%89%8D%E8%83%BD%E6%8B%8D%E5%88%B0%E6%9C%88%E7%90%83%E4%B8%8A%E7%9A%84%E8%84%9A%E5%8D%B0%EF%BC%9F/6.png" alt="1"></p>
 <p>画出图像如下：</p>
-<p><img src="/2020/05/02/%E8%A6%81%E6%80%8E%E6%A0%B7%E6%89%8D%E8%83%BD%E6%8B%8D%E5%88%B0%E6%9C%88%E7%90%83%E4%B8%8A%E7%9A%84%E8%84%9A%E5%8D%B0%EF%BC%9F/7.png" alt="1"> </p>
+<p><img src="/2020/05/02/%E8%A6%81%E6%80%8E%E6%A0%B7%E6%89%8D%E8%83%BD%E6%8B%8D%E5%88%B0%E6%9C%88%E7%90%83%E4%B8%8A%E7%9A%84%E8%84%9A%E5%8D%B0%EF%BC%9F/7.png" alt="1"></p>
 <p>并且，我们可以看一下圆孔衍射的图样：</p>
 <p><img src="/2020/05/02/%E8%A6%81%E6%80%8E%E6%A0%B7%E6%89%8D%E8%83%BD%E6%8B%8D%E5%88%B0%E6%9C%88%E7%90%83%E4%B8%8A%E7%9A%84%E8%84%9A%E5%8D%B0%EF%BC%9F/8.png" alt="1"></p>
 <p>结合图像和图样我们可以看到，几乎所有的光强都集中在最中央的亮斑中，把这个斑点称为艾里斑。而它的半径则由第一个暗纹的位置决定。理论计算告诉我们，第一个暗纹的位置由下式决定：</p>
@@ -187,10 +194,11 @@
 <p>于是，代入$ =2\pi/\lambda $ , 并近似给出$ \sin\theta=\theta $ ，可以得到</p>
 <p>$ \sin\theta=\displaystyle\frac{1.22\lambda}{D} $</p>
 <p>其中，$ D =2a $  。</p>
-<h2 id="2-光学系统的分辨本领"><a href="#2-光学系统的分辨本领" class="headerlink" title="2    光学系统的分辨本领"></a>2    光学系统的分辨本领</h2><p>现在开始，我们终于可以给出文章一开始问题的解答了。</p>
+<h2 id="2-光学系统的分辨本领"><a class="markdownIt-Anchor" href="#2-光学系统的分辨本领"></a> 2    光学系统的分辨本领</h2>
+<p>现在开始，我们终于可以给出文章一开始问题的解答了。</p>
 <p>基于上面的分析，如果我们把相机镜头看作圆孔，那么经过衍射，一个物点就会在像面上形成一个艾里斑，其半径由上文公式确定。那么，考虑两个相距不远的物点。由于衍射效应的存在，它们一定会在像面上形成两个艾里斑，若这两个艾里斑发生了大部分交叠，那就会发生“无法分辨”的情况。</p>
 <p>我们下面引入一种对“能否分辨”的判别方法，这种判别方法被称为“瑞利判据”，也即，其中一个衍射图象的中央最亮处恰与另一个的第一级暗纹重合，则称此为恰好能够分辨，如图所示。</p>
-<p> <img src="/2020/05/02/%E8%A6%81%E6%80%8E%E6%A0%B7%E6%89%8D%E8%83%BD%E6%8B%8D%E5%88%B0%E6%9C%88%E7%90%83%E4%B8%8A%E7%9A%84%E8%84%9A%E5%8D%B0%EF%BC%9F/9.png" alt="1"></p>
+<p><img src="/2020/05/02/%E8%A6%81%E6%80%8E%E6%A0%B7%E6%89%8D%E8%83%BD%E6%8B%8D%E5%88%B0%E6%9C%88%E7%90%83%E4%B8%8A%E7%9A%84%E8%84%9A%E5%8D%B0%EF%BC%9F/9.png" alt="1"></p>
 <p>此时，我们能够得出，两个光斑间的角距离 $ a=\displaystyle\frac{1.22\lambda}{D} $ 。其中 $ D $  可以看成光学系统的口径。所以，下面我们可以回答文章开头的问题了，并且我们可以从两个方面进行回答：</p>
 <p>(1)  三星S20 Ultra的相机需要多大的口径？</p>
 <p>不妨取脚印长30cm，也即0.3m，考虑地月距离为 $ 3.84 \times 10^8 $m。于是得到张角  .我们取可见光波长为550nm，代入上面的分辨公式，可以得到 $ D =858.88 $ m。也就是三星S20 Ultra需要858米的口径，emmmm，似乎不太可能啊！</p>
@@ -203,5 +211,11 @@
       <categories>
         <category>物理/科普</category>
       </categories>
+  </entry>
+  <entry>
+    <title>hzq语录</title>
+    <url>/2020/05/08/hzq%E8%AF%AD%E5%BD%95/</url>
+    <content><![CDATA[<p><a href="/download/hzq%E8%AF%AD%E5%BD%95.PDF" title="hzq语录下载">点击下载</a></p>
+]]></content>
   </entry>
 </search>
