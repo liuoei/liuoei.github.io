@@ -34,12 +34,6 @@ const ap = new APlayer({
         cover: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1604755518,1099120615&fm=15&gp=0.jpg',
       },
       {
-        name: '将故事写成我们',
-        artist: '林俊杰' ,
-        url: 'https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9vbmVkcml2ZS5naW1ob3kuY29tL3NoYXJlcG9pbnQvYUhSMGNITTZMeTlvZFhOMFpXUjFZMjR0YlhrdWMyaGhjbVZ3YjJsdWRDNWpiMjB2T25VNkwyY3ZjR1Z5YzI5dVlXd3ZZMjV5WjJ4emNWOW9kWE4wWDJWa2RWOWpiaTlGVW5KcE1XWktaVEI2YkVWMFQyWlpObVJCZWxoR09FSlhXSG8yYzBsbFJESkxkWGRYUkdrNVltUjRjVGxCUDJVOVYwOUhVVXhFLm1wMw==.mp3',
-        cover: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1233466124,1861943571&fm=26&gp=0.jpg',
-      },
-      {
         name: '以父之名',
         artist: '周杰伦' ,
         url: 'https://onedrive.gimhoy.com/sharepoint/aHR0cHM6Ly9odXN0ZWR1Y24tbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvY25yZ2xzcV9odXN0X2VkdV9jbi9FZk5kaS1XRVVSSkhuZmpkelpzUGFCNEIzQks1WExEV3hfMm54ZWFJcTlCZHV3P2U9N2g3MUZB.mp3',
