@@ -228,4 +228,35 @@
 <p><img src="/2020/07/15/2020%E5%B9%B4%E9%AB%98%E8%80%83%E6%B1%9F%E8%8B%8F%E5%8D%B7%EF%BC%88%E6%95%B0%E5%AD%A6%E8%AF%95%E5%8D%B7%EF%BC%89/Preview.png" alt="Preview"></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>记录一次艰难的manim配置过程</title>
+    <url>/2020/07/19/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E8%89%B0%E9%9A%BE%E7%9A%84manim%E9%85%8D%E7%BD%AE%E8%BF%87%E7%A8%8B/</url>
+    <content><![CDATA[<p>今天想用manim做一段简单的动画，于是开始配置。前期的 <code>pip install</code>以及MiKTeX等安装过程都很顺利，但是在后期编写第一个<code>helloworld.py</code>文件尝试运行的时候出现了问题。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> big_ol_pile_of_manim_imports <span class="keyword">import</span> *</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Hello_World</span><span class="params">(Scene)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">construct</span><span class="params">(self)</span>:</span></span><br><span class="line">        helloworld  = TextMobject(<span class="string">"Hello World"</span>,color=RED)</span><br><span class="line"></span><br><span class="line">        self.play(Write(helloworld))</span><br><span class="line">        self.wait(<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
+<p>然后，在命令行里输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python -m manim helloworld.py Hello_World -pl</span><br></pre></td></tr></table></figure>
+<p>本来应当能够正常渲染出视频，但是却有如下报错：</p>
+<p><img src="/2020/07/19/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E8%89%B0%E9%9A%BE%E7%9A%84manim%E9%85%8D%E7%BD%AE%E8%BF%87%E7%A8%8B/1.png" alt="1"></p>
+<p>大概看了一下，基本能判断出是有关 LaTeX 的问题，于是去Google</p>
+<p>结果就搜到了一个关于manim常见问题的respository</p>
+<p><a href="https://github.com/gabrieliu/manim_sandbox/tree/master/documents" target="_blank" rel="noopener">manim常见问题</a></p>
+<p>里面的文档提到，要将 <code>manimlib/constant.py</code> 中的 <code>TEX_USE_CTEX = True</code>改为 <code>TEX_USE_CTEX = False</code> 。经过修改，再次运行结果如下：</p>
+<p><img src="/2020/07/19/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E8%89%B0%E9%9A%BE%E7%9A%84manim%E9%85%8D%E7%BD%AE%E8%BF%87%E7%A8%8B/2.png" alt="1"></p>
+<p>依然报错，只不过<code>log</code> 不一样了。继续看刚刚的文档，里面提到还要对<code>manimlib/constant.py</code>的第29行进行修改，将<code>MEDIA_DIR = &quot;./media&quot;</code>改为<code>MEDIA_DIR = os.path.join(os.getcwd(), &quot;media&quot;)</code>。照办之后，报错依旧。文档里又提到MikTeX的安装路径是否写入环境变量等问题，经一一验证均无问题。</p>
+<p>于是只能继续借助Google的力量。不出所料，Github里又搜到了相关的Issue：</p>
+<p><a href="https://github.com/3b1b/manim/issues/570" target="_blank" rel="noopener">Exception: Xelatex error converting to xdv. See log output above or the log file</a></p>
+<p>阅读之后，其中提到要将文件 <code>ctex_template.tex</code>中的<code>\usepackge[UTF8](ctex)</code>放到第二行，照办后依然无效。</p>
+<p><img src="/2020/07/19/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E8%89%B0%E9%9A%BE%E7%9A%84manim%E9%85%8D%E7%BD%AE%E8%BF%87%E7%A8%8B/3.png" alt="1"></p>
+<p>其后，不管是<code>helloworld.py</code>文件里输入中文还是英文，用单引号或是双引号，报错依然故我。</p>
+<p>但是，我还是Google出了有一个Github的页面：</p>
+<p><a href="https://github.com/3b1b/manim/issues/505" target="_blank" rel="noopener">Exception: Latex error converting to dvi.</a></p>
+<p>其中有人回复道：</p>
+<p><img src="/2020/07/19/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E8%89%B0%E9%9A%BE%E7%9A%84manim%E9%85%8D%E7%BD%AE%E8%BF%87%E7%A8%8B/4.png" alt="1"></p>
+<p>于是我仔细看了一下我的文件目录，发现其中果然含有空格……</p>
+<p>然后我将整个<code>manim-master</code>文件夹移动到了D盘的根目录，再次尝试运行</p>
+<p><img src="/2020/07/19/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E8%89%B0%E9%9A%BE%E7%9A%84manim%E9%85%8D%E7%BD%AE%E8%BF%87%E7%A8%8B/5.png" alt="1"></p>
+<p>终于成功渲染出了视频</p>
+<p>至此我已经花了一个多小时的时间，想想就难受……</p>
+]]></content>
+  </entry>
 </search>
